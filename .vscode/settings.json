@@ -1,0 +1,28 @@
+{
+  "editor.dragAndDrop": true,
+  "autoimport.doubleQuotes": false,
+  "cucumberautocomplete.steps": [
+      "e2e/src/features/steps/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "e2e/src/features/*feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.customParameters": [
+      {
+          "parameter":"{ab}",
+          "value":"(a|b)"
+      }
+  ],
+  "cucumberautocomplete.skipDocStringsFormat": true,
+  "cucucumberautocomplete.formatConfOverride": {
+      "And": 3,
+      "But": "relative",
+  },
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+      "comments": false,
+      "strings": true,
+      "other": true
+  }
+}

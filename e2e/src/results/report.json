@@ -1,0 +1,165 @@
+[
+  {
+    "description": "As a user of the Home page\nI should see a greeting message",
+    "keyword": "Feature",
+    "name": "Home Page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "e2e\\src\\features\\home.feature",
+    "elements": [
+      {
+        "id": "home-page;view-greeting-on-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "View greeting on home page",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "e2e\\src\\features\\steps\\home-steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see a welcome greeting",
+            "match": {
+              "location": "e2e\\src\\features\\steps\\home-steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5035000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\hooks\\base-hook.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page;enter-in-name-on-home-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Enter in name on home page",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "e2e\\src\\features\\steps\\home-steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1962000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter in my name \"Elias\"",
+            "match": {
+              "location": "e2e\\src\\features\\steps\\home-steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click the submit button",
+            "match": {
+              "location": "e2e\\src\\features\\steps\\home-steps.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The welcome greeting will show my name \"Elias\"",
+            "match": {
+              "location": "e2e\\src\\features\\steps\\home-steps.ts:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1531000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\hooks\\base-hook.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
